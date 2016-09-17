@@ -1,0 +1,13 @@
+
+for %i Design 	FilmandVideo	Food	Games	Publishing	Music Fashion Theater	Photography Art Technology Crafts Journalism Dance Comics
+pageselect {%i}
+group factor2 BACKEDG20 BACKERS_COUNT  PASSSUCCEED_LEVEL50  ENGEL_COEF   COMMENTS_COUNT CREATEDG10 CREATOR_FRIENDS_FACEBOOK DURATION GINI_COEF HAS_A_VIDEO_D PROJECT_STATE_CODE UPDATES_NUMBER log(GOAL_USD)
+
+equation {%i}log.binary(d=l) PROJECT_STATE_CODE c PASSSUCCEED_LEVEL50  BACKEDG20 BACKERS_COUNT COMMENTS_COUNT CREATEDG10 CREATOR_FRIENDS_FACEBOOK DURATION  HAS_A_VIDEO_D  UPDATES_NUMBER log(GOAL_USD)
+'equation {%i}withgini.binary(d=l) PROJECT_STATE_CODE c PASSSUCCEED_LEVEL50  BACKEDG20 BACKERS_COUNT COMMENTS_COUNT CREATEDG10 CREATOR_FRIENDS_FACEBOOK DURATION GINI_COEF HAS_A_VIDEO_D  UPDATES_NUMBER  GOAL_USD
+'equation {%i}withengel.binary(d=l) PROJECT_STATE_CODE c PASSSUCCEED_LEVEL50  BACKEDG20 BACKERS_COUNT COMMENTS_COUNT CREATEDG10 CREATOR_FRIENDS_FACEBOOK DURATION ENGEL_COEF HAS_A_VIDEO_D  UPDATES_NUMBER  GOAL_USD 
+'freeze(result{%i})  {%i}
+'result{%i}.save(t=csv) C:\Users\c1506457\Desktop\grouplogitresult/logit/result{%i}
+'{%i}factorstats.save(t=csv) C:\Users\c1506457\Desktop\grouplogitresult/descriptive/descriptive{%i}
+next
+'freeze({%i}factorstats) factor.stats

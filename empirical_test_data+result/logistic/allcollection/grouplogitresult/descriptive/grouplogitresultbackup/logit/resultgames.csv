@@ -1,0 +1,34 @@
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 12132,,,,
+Included observations: 12132,,,,
+Convergence achieved after 11 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-3.359523,0.486970,-6.898825,0.0000
+BACKERS_COUNT,0.014008,0.000561,24.95542,0.0000
+COMMENTS_COUNT,0.000188,0.000534,0.353015,0.7241
+CREATOR_FRIENDS_FACEBOOK,0.000259,5.23E-05,4.944362,0.0000
+CREATOR_HAS_BACKED__PROJ,-0.001836,0.001059,-1.733490,0.0830
+CREATOR_HAS_BUILT_PROJEC,0.044709,0.010579,4.226125,0.0000
+DURATION,-0.022892,0.003709,-6.172344,0.0000
+GINI_COEF,4.802729,1.208118,3.975382,0.0001
+GOAL_USD,-0.000235,7.99E-06,-29.45527,0.0000
+HAS_A_VIDEO_D,0.248388,0.090735,2.737512,0.0062
+UPDATES_NUMBER,0.178359,0.005837,30.55810,0.0000
+,,,,
+McFadden R-squared,0.692422,    Mean dependent var,,0.369766
+S.D. dependent var,0.482761,    S.E. of regression,,0.236472
+Akaike info criterion,0.407097,    Sum squared resid,,677.7943
+Schwarz criterion,0.413810,    Log likelihood,,-2458.450
+Hannan-Quinn criter.,0.409347,    Deviance,,4916.899
+Restr. deviance,15985.87,    Restr. log likelihood,,-7992.937
+LR statistic,11068.98,    Avg. log likelihood,,-0.202642
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,7646,     Total obs,,12132
+Obs with Dep=1,4486,,,
+,,,,

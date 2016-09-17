@@ -1,0 +1,862 @@
+[1] "state of Design"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Design)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.7990  -0.1872   0.0000   0.1555   4.4958  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.039e+00  3.011e-01   3.451 0.000558 ***
+passsucceed_level50             -3.675e+00  1.980e-01 -18.563  < 2e-16 ***
+backedg20                       -4.694e-01  2.207e-01  -2.127 0.033393 *  
+createdg10                      -6.132e-01  3.110e-01  -1.972 0.048630 *  
+duration                        -3.629e-02  7.460e-03  -4.864 1.15e-06 ***
+goal_usd                        -1.110e-04  8.277e-06 -13.415  < 2e-16 ***
+backers_count                    4.126e-03  7.699e-04   5.358 8.39e-08 ***
+creator_friends_facebook_number  1.928e-04  1.005e-04   1.918 0.055070 .  
+has_a_video_d                    4.927e-03  2.145e-01   0.023 0.981676    
+updates_number                   2.311e-01  1.726e-02  13.384  < 2e-16 ***
+comments_count                   2.904e-02  4.758e-03   6.104 1.04e-09 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4090.8  on 2950  degrees of freedom
+Residual deviance: 1080.9  on 2940  degrees of freedom
+AIC: 1102.9
+
+Number of Fisher Scoring iterations: 9
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             2950     4090.8              
+passsucceed_level50              1  1828.25      2949     2262.5 < 2.2e-16 ***
+backedg20                        1    17.08      2948     2245.4 3.575e-05 ***
+createdg10                       1     8.91      2947     2236.5   0.00284 ** 
+duration                         1     5.54      2946     2231.0   0.01856 *  
+goal_usd                         1    80.43      2945     2150.6 < 2.2e-16 ***
+backers_count                    1   612.38      2944     1538.2 < 2.2e-16 ***
+creator_friends_facebook_number  1     0.64      2943     1537.5   0.42244    
+has_a_video_d                    1     4.81      2942     1532.7   0.02837 *  
+updates_number                   1   391.14      2941     1141.6 < 2.2e-16 ***
+comments_count                   1    60.68      2940     1080.9 6.719e-15 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of FilmandVideo"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = FilmandVideo)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.8866  -0.2343  -0.0215   0.1268   3.7491  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.891e+00  2.443e-01   7.740 9.98e-15 ***
+passsucceed_level50             -4.101e+00  1.429e-01 -28.706  < 2e-16 ***
+backedg20                       -1.005e+00  2.496e-01  -4.025 5.70e-05 ***
+createdg10                       1.148e+00  5.017e-01   2.288   0.0222 *  
+duration                        -2.292e-02  4.726e-03  -4.851 1.23e-06 ***
+goal_usd                        -2.000e-04  1.156e-05 -17.299  < 2e-16 ***
+backers_count                    3.513e-02  2.511e-03  13.988  < 2e-16 ***
+creator_friends_facebook_number  1.168e-04  6.471e-05   1.805   0.0711 .  
+has_a_video_d                   -1.870e-02  1.859e-01  -0.101   0.9199    
+updates_number                   1.554e-01  1.316e-02  11.813  < 2e-16 ***
+comments_count                  -3.299e-02  4.450e-03  -7.414 1.23e-13 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 6600.3  on 4956  degrees of freedom
+Residual deviance: 1547.9  on 4946  degrees of freedom
+AIC: 1569.9
+
+Number of Fisher Scoring iterations: 9
+
+[1] "state of Food"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Food)
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-2.93336  -0.18260  -0.00726   0.08608   2.80763  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.792e+00  4.542e-01   3.945 7.98e-05 ***
+passsucceed_level50             -4.200e+00  3.229e-01 -13.009  < 2e-16 ***
+backedg20                       -1.348e+00  6.218e-01  -2.168   0.0301 *  
+createdg10                       1.792e+00  9.500e-01   1.886   0.0593 .  
+duration                        -2.456e-02  1.147e-02  -2.142   0.0322 *  
+goal_usd                        -3.020e-04  3.691e-05  -8.182 2.78e-16 ***
+backers_count                    4.486e-02  6.352e-03   7.062 1.64e-12 ***
+creator_friends_facebook_number -1.532e-05  1.871e-04  -0.082   0.9348    
+has_a_video_d                   -2.904e-01  3.325e-01  -0.873   0.3825    
+updates_number                   1.198e-01  2.996e-02   4.000 6.33e-05 ***
+comments_count                   4.451e-02  1.899e-02   2.344   0.0191 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1581.72  on 1180  degrees of freedom
+Residual deviance:  334.69  on 1170  degrees of freedom
+AIC: 356.69
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             1180    1581.72              
+passsucceed_level50              1   880.54      1179     701.18 < 2.2e-16 ***
+backedg20                        1     2.22      1178     698.96  0.136177    
+createdg10                       1     6.05      1177     692.91  0.013893 *  
+duration                         1     9.75      1176     683.16  0.001792 ** 
+goal_usd                         1    29.16      1175     654.00 6.664e-08 ***
+backers_count                    1   289.71      1174     364.29 < 2.2e-16 ***
+creator_friends_facebook_number  1     0.07      1173     364.23  0.795943    
+has_a_video_d                    1     0.38      1172     363.85  0.539546    
+updates_number                   1    23.71      1171     340.14 1.122e-06 ***
+comments_count                   1     5.45      1170     334.69  0.019532 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Games"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Games)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-6.1372  -0.1527   0.0000   0.1383   4.7818  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      9.473e-01  2.413e-01   3.925 8.66e-05 ***
+passsucceed_level50             -2.873e+00  1.485e-01 -19.340  < 2e-16 ***
+backedg20                       -7.497e-01  1.502e-01  -4.990 6.03e-07 ***
+createdg10                       2.089e-01  2.092e-01   0.999  0.31800    
+duration                        -1.914e-02  6.079e-03  -3.148  0.00165 ** 
+goal_usd                        -2.841e-04  1.556e-05 -18.258  < 2e-16 ***
+backers_count                    1.307e-02  9.206e-04  14.200  < 2e-16 ***
+creator_friends_facebook_number  1.158e-04  7.894e-05   1.467  0.14231    
+has_a_video_d                   -1.918e-01  1.544e-01  -1.242  0.21417    
+updates_number                   1.389e-01  9.477e-03  14.657  < 2e-16 ***
+comments_count                   5.219e-03  1.239e-03   4.214 2.51e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 6383.2  on 4668  degrees of freedom
+Residual deviance: 1545.4  on 4658  degrees of freedom
+AIC: 1567.4
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             4668     6383.2              
+passsucceed_level50              1  2639.94      4667     3743.3 < 2.2e-16 ***
+backedg20                        1    26.84      4666     3716.4 2.205e-07 ***
+createdg10                       1    10.01      4665     3706.4  0.001553 ** 
+duration                         1    30.64      4664     3675.8 3.100e-08 ***
+goal_usd                         1   151.55      4663     3524.2 < 2.2e-16 ***
+backers_count                    1  1546.68      4662     1977.5 < 2.2e-16 ***
+creator_friends_facebook_number  1     0.02      4661     1977.5  0.886838    
+has_a_video_d                    1     0.37      4660     1977.1  0.541344    
+updates_number                   1   400.80      4659     1576.3 < 2.2e-16 ***
+comments_count                   1    30.95      4658     1545.4 2.645e-08 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Publishing"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Publishing)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.1181  -0.2208  -0.0077   0.1057   4.0170  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.553e+00  2.732e-01   5.685 1.31e-08 ***
+passsucceed_level50             -3.741e+00  1.787e-01 -20.936  < 2e-16 ***
+backedg20                       -1.028e+00  2.622e-01  -3.922 8.77e-05 ***
+createdg10                      -1.064e-01  4.332e-01  -0.246   0.8059    
+duration                        -2.645e-02  6.445e-03  -4.105 4.05e-05 ***
+goal_usd                        -4.454e-04  3.210e-05 -13.874  < 2e-16 ***
+backers_count                    4.621e-02  4.004e-03  11.543  < 2e-16 ***
+creator_friends_facebook_number  1.373e-04  9.332e-05   1.472   0.1412    
+has_a_video_d                    3.081e-01  1.843e-01   1.672   0.0946 .  
+updates_number                   1.282e-01  1.587e-02   8.081 6.40e-16 ***
+comments_count                   8.262e-03  7.165e-03   1.153   0.2488    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4559.48  on 3324  degrees of freedom
+Residual deviance:  986.97  on 3314  degrees of freedom
+AIC: 1009
+
+Number of Fisher Scoring iterations: 9
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             3324     4559.5              
+passsucceed_level50              1  2782.96      3323     1776.5 < 2.2e-16 ***
+backedg20                        1    15.35      3322     1761.2 8.922e-05 ***
+createdg10                       1     0.00      3321     1761.2  0.986954    
+duration                         1    35.47      3320     1725.7 2.593e-09 ***
+goal_usd                         1    45.42      3319     1680.3 1.590e-11 ***
+backers_count                    1   605.15      3318     1075.1 < 2.2e-16 ***
+creator_friends_facebook_number  1     0.81      3317     1074.3  0.368242    
+has_a_video_d                    1     9.57      3316     1064.8  0.001978 ** 
+updates_number                   1    76.07      3315      988.7 < 2.2e-16 ***
+comments_count                   1     1.72      3314      987.0  0.190319    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Music"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Music)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.5446  -0.2076   0.0015   0.1960   6.8645  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.832e+00  2.774e-01   6.604 4.01e-11 ***
+passsucceed_level50             -3.755e+00  1.662e-01 -22.589  < 2e-16 ***
+backedg20                       -2.412e-01  4.210e-01  -0.573 0.566705    
+createdg10                      -9.471e-01  5.980e-01  -1.584 0.113284    
+duration                        -1.816e-02  5.205e-03  -3.489 0.000484 ***
+goal_usd                        -4.002e-04  2.562e-05 -15.621  < 2e-16 ***
+backers_count                    6.367e-02  4.428e-03  14.379  < 2e-16 ***
+creator_friends_facebook_number  8.750e-05  5.988e-05   1.461 0.143903    
+has_a_video_d                   -1.987e-01  1.918e-01  -1.036 0.300406    
+updates_number                   1.128e-01  1.729e-02   6.525 6.82e-11 ***
+comments_count                  -6.399e-02  1.041e-02  -6.145 8.01e-10 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4811.7  on 3493  degrees of freedom
+Residual deviance: 1124.9  on 3483  degrees of freedom
+AIC: 1146.9
+
+Number of Fisher Scoring iterations: 9
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             3493     4811.7              
+passsucceed_level50              1  2794.02      3492     2017.7 < 2.2e-16 ***
+backedg20                        1     8.64      3491     2009.1  0.003295 ** 
+createdg10                       1     0.32      3490     2008.8  0.568853    
+duration                         1    21.53      3489     1987.2 3.482e-06 ***
+goal_usd                         1    40.34      3488     1946.9 2.136e-10 ***
+backers_count                    1   756.76      3487     1190.1 < 2.2e-16 ***
+creator_friends_facebook_number  1     2.72      3486     1187.4  0.098991 .  
+has_a_video_d                    1     0.26      3485     1187.2  0.612374    
+updates_number                   1    44.70      3484     1142.5 2.298e-11 ***
+comments_count                   1    17.60      3483     1124.9 2.727e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Fashion"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Fashion)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.7106  -0.2133  -0.0295   0.1012   2.7989  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.233e+00  4.234e-01   2.913  0.00358 ** 
+passsucceed_level50             -3.760e+00  2.755e-01 -13.650  < 2e-16 ***
+backedg20                        2.329e-01  4.177e-01   0.558  0.57718    
+createdg10                      -4.787e-01  6.463e-01  -0.741  0.45887    
+duration                        -4.606e-02  1.159e-02  -3.974 7.06e-05 ***
+goal_usd                        -1.849e-04  2.242e-05  -8.245  < 2e-16 ***
+backers_count                    1.838e-02  3.772e-03   4.872 1.11e-06 ***
+creator_friends_facebook_number  3.725e-04  1.373e-04   2.713  0.00667 ** 
+has_a_video_d                    3.207e-01  2.805e-01   1.143  0.25294    
+updates_number                   1.983e-01  2.903e-02   6.831 8.45e-12 ***
+comments_count                   4.767e-02  1.512e-02   3.153  0.00162 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1735.48  on 1271  degrees of freedom
+Residual deviance:  437.59  on 1261  degrees of freedom
+AIC: 459.59
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             1271    1735.48              
+passsucceed_level50              1   932.90      1270     802.57 < 2.2e-16 ***
+backedg20                        1    10.69      1269     791.89  0.001078 ** 
+createdg10                       1     3.20      1268     788.68  0.073515 .  
+duration                         1     8.83      1267     779.85  0.002957 ** 
+goal_usd                         1    19.40      1266     760.44 1.057e-05 ***
+backers_count                    1   215.51      1265     544.93 < 2.2e-16 ***
+creator_friends_facebook_number  1     2.08      1264     542.85  0.149210    
+has_a_video_d                    1     3.52      1263     539.33  0.060514 .  
+updates_number                   1    86.56      1262     452.77 < 2.2e-16 ***
+comments_count                   1    15.18      1261     437.59 9.764e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Theater"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Theater)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.6947  -0.0773   0.0162   0.1637   2.9964  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.403e+00  5.889e-01   2.383   0.0172 *  
+passsucceed_level50             -3.869e+00  3.880e-01  -9.972  < 2e-16 ***
+backedg20                       -8.718e-01  8.445e-01  -1.032   0.3019    
+createdg10                       1.276e-01  1.411e+00   0.090   0.9279    
+duration                        -9.470e-03  1.292e-02  -0.733   0.4635    
+goal_usd                        -5.945e-04  7.103e-05  -8.369  < 2e-16 ***
+backers_count                    1.329e-01  1.655e-02   8.032 9.62e-16 ***
+creator_friends_facebook_number  2.430e-05  1.835e-04   0.132   0.8946    
+has_a_video_d                   -7.719e-02  4.263e-01  -0.181   0.8563    
+updates_number                   6.922e-02  3.854e-02   1.796   0.0725 .  
+comments_count                  -3.571e-01  6.237e-02  -5.725 1.03e-08 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1207.71  on 911  degrees of freedom
+Residual deviance:  220.19  on 901  degrees of freedom
+AIC: 242.19
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                              911    1207.71              
+passsucceed_level50              1   689.90       910     517.81 < 2.2e-16 ***
+backedg20                        1     2.91       909     514.90   0.08813 .  
+createdg10                       1     0.51       908     514.39   0.47681    
+duration                         1    10.42       907     503.98   0.00125 ** 
+goal_usd                         1    32.47       906     471.51 1.209e-08 ***
+backers_count                    1   223.84       905     247.67 < 2.2e-16 ***
+creator_friends_facebook_number  1     0.15       904     247.52   0.69666    
+has_a_video_d                    1     0.19       903     247.33   0.66345    
+updates_number                   1     3.15       902     244.17   0.07574 .  
+comments_count                   1    23.98       901     220.19 9.715e-07 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Photography"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Photography)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.3157  -0.1109  -0.0044   0.0321   2.5288  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      0.7154182  0.5598864   1.278 0.201323    
+passsucceed_level50             -4.0405078  0.4395748  -9.192  < 2e-16 ***
+backedg20                       -1.1234104  0.5494225  -2.045 0.040883 *  
+createdg10                       0.4917124  0.5682666   0.865 0.386883    
+duration                        -0.0214941  0.0162702  -1.321 0.186478    
+goal_usd                        -0.0007579  0.0001010  -7.502 6.28e-14 ***
+backers_count                    0.1028201  0.0157636   6.523 6.91e-11 ***
+creator_friends_facebook_number  0.0001633  0.0002249   0.726 0.467703    
+has_a_video_d                   -0.0078278  0.4015282  -0.019 0.984446    
+updates_number                   0.1617026  0.0465543   3.473 0.000514 ***
+comments_count                   0.2156812  0.0753894   2.861 0.004224 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1206.55  on 892  degrees of freedom
+Residual deviance:  215.63  on 882  degrees of freedom
+AIC: 237.63
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                              892    1206.55              
+passsucceed_level50              1   652.62       891     553.92 < 2.2e-16 ***
+backedg20                        1     0.05       890     553.87  0.814616    
+createdg10                       1     1.90       889     551.97  0.168270    
+duration                         1     1.58       888     550.39  0.208242    
+goal_usd                         1    10.17       887     540.22  0.001428 ** 
+backers_count                    1   296.62       886     243.60 < 2.2e-16 ***
+creator_friends_facebook_number  1     1.35       885     242.25  0.244579    
+has_a_video_d                    1     0.79       884     241.45  0.373217    
+updates_number                   1    16.38       883     225.07 5.178e-05 ***
+comments_count                   1     9.44       882     215.63  0.002120 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Art"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Art)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.6201  -0.1673   0.0002   0.1539   3.9969  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.236e+00  2.994e-01   4.130 3.63e-05 ***
+passsucceed_level50             -3.560e+00  2.079e-01 -17.126  < 2e-16 ***
+backedg20                       -1.017e+00  3.213e-01  -3.164  0.00156 ** 
+createdg10                      -2.837e-03  4.317e-01  -0.007  0.99476    
+duration                        -7.376e-03  7.292e-03  -1.011  0.31178    
+goal_usd                        -7.500e-04  6.292e-05 -11.919  < 2e-16 ***
+backers_count                    8.985e-02  7.838e-03  11.464  < 2e-16 ***
+creator_friends_facebook_number  7.813e-05  9.898e-05   0.789  0.42995    
+has_a_video_d                    3.905e-01  2.167e-01   1.802  0.07148 .  
+updates_number                   1.449e-01  2.359e-02   6.141 8.21e-10 ***
+comments_count                  -5.471e-03  7.301e-03  -0.749  0.45366    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 2971.91  on 2165  degrees of freedom
+Residual deviance:  688.73  on 2155  degrees of freedom
+AIC: 710.73
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             2165    2971.91              
+passsucceed_level50              1  1623.07      2164    1348.84 < 2.2e-16 ***
+backedg20                        1     3.61      2163    1345.23 0.0575647 .  
+createdg10                       1     0.26      2162    1344.97 0.6098206    
+duration                         1    10.90      2161    1334.08 0.0009636 ***
+goal_usd                         1    40.13      2160    1293.94 2.372e-10 ***
+backers_count                    1   528.99      2159     764.96 < 2.2e-16 ***
+creator_friends_facebook_number  1     0.99      2158     763.97 0.3209247    
+has_a_video_d                    1     4.18      2157     759.80 0.0410163 *  
+updates_number                   1    70.83      2156     688.97 < 2.2e-16 ***
+comments_count                   1     0.24      2155     688.73 0.6278227    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Comics"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Comics)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+ -8.49    0.00    0.00    0.00    8.49  
+
+Coefficients:
+                                  Estimate Std. Error    z value Pr(>|z|)    
+(Intercept)                      1.491e+14  5.609e+06   26573679   <2e-16 ***
+passsucceed_level50             -7.415e+14  3.348e+06 -221507959   <2e-16 ***
+backedg20                       -1.132e+14  3.049e+06  -37120424   <2e-16 ***
+createdg10                       6.351e+13  6.038e+06   10516930   <2e-16 ***
+duration                         4.720e+12  1.202e+05   39268895   <2e-16 ***
+goal_usd                        -4.334e+10  7.348e+01 -589886208   <2e-16 ***
+backers_count                    1.486e+12  4.726e+03  314391206   <2e-16 ***
+creator_friends_facebook_number  2.210e+10  1.151e+03   19205992   <2e-16 ***
+has_a_video_d                   -1.415e+14  3.755e+06  -37673822   <2e-16 ***
+updates_number                   2.988e+13  1.027e+05  290973227   <2e-16 ***
+comments_count                   4.215e+12  1.826e+04  230848264   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance:  3085  on 2362  degrees of freedom
+Residual deviance: 14057  on 2352  degrees of freedom
+AIC: 14079
+
+Number of Fisher Scoring iterations: 25
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             2362     3085.0              
+passsucceed_level50              1  1436.18      2361     1648.8 < 2.2e-16 ***
+backedg20                        1    17.31      2360     1631.5 3.177e-05 ***
+createdg10                       1    28.06      2359     1603.4 1.174e-07 ***
+duration                         1    18.59      2358     1584.8 1.625e-05 ***
+goal_usd                         1    27.95      2357     1556.9 1.247e-07 ***
+backers_count                    1   629.41      2356      927.5 < 2.2e-16 ***
+creator_friends_facebook_number  1     1.15      2355      926.3    0.2836    
+has_a_video_d                    1     1.70      2354      924.6    0.1919    
+updates_number                   1   130.49      2353      794.1 < 2.2e-16 ***
+comments_count                   1     0.00      2352    14057.0    1.0000    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Technology"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Technology)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.7939  -0.2389  -0.0185   0.1130   3.0032  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      1.237e+00  5.077e-01   2.436   0.0148 *  
+passsucceed_level50             -3.725e+00  2.687e-01 -13.863  < 2e-16 ***
+backedg20                        9.536e-02  3.983e-01   0.239   0.8108    
+createdg10                       6.415e-02  4.913e-01   0.131   0.8961    
+duration                        -2.192e-02  1.092e-02  -2.007   0.0448 *  
+goal_usd                        -7.067e-05  8.144e-06  -8.678  < 2e-16 ***
+backers_count                   -2.031e-04  5.084e-04  -0.399   0.6895    
+creator_friends_facebook_number  6.227e-05  1.494e-04   0.417   0.6768    
+has_a_video_d                   -1.143e-01  3.374e-01  -0.339   0.7347    
+updates_number                   2.379e-01  2.514e-02   9.464  < 2e-16 ***
+comments_count                   2.780e-02  5.415e-03   5.133 2.84e-07 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1867.50  on 1362  degrees of freedom
+Residual deviance:  455.03  on 1352  degrees of freedom
+AIC: 477.03
+
+Number of Fisher Scoring iterations: 9
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                             1362    1867.50              
+passsucceed_level50              1   958.76      1361     908.74 < 2.2e-16 ***
+backedg20                        1     9.96      1360     898.78  0.001597 ** 
+createdg10                       1     0.44      1359     898.34  0.508090    
+duration                         1     8.83      1358     889.51  0.002956 ** 
+goal_usd                         1    60.32      1357     829.18 8.056e-15 ***
+backers_count                    1   107.63      1356     721.55 < 2.2e-16 ***
+creator_friends_facebook_number  1     0.10      1355     721.45  0.750609    
+has_a_video_d                    1     4.72      1354     716.73  0.029766 *  
+updates_number                   1   218.30      1353     498.42 < 2.2e-16 ***
+comments_count                   1    43.39      1352     455.03 4.478e-11 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Crafts"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Crafts)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.4417  -0.2741  -0.0003   0.1333   2.6435  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      0.9386418  0.5600231   1.676   0.0937 .  
+passsucceed_level50             -3.1342068  0.4096740  -7.650 2.00e-14 ***
+backedg20                       -1.4107577  0.7167673  -1.968   0.0490 *  
+createdg10                      -0.3340186  0.7457612  -0.448   0.6542    
+duration                        -0.0162236  0.0177324  -0.915   0.3602    
+goal_usd                        -0.0009804  0.0001676  -5.849 4.93e-09 ***
+backers_count                    0.0737862  0.0172878   4.268 1.97e-05 ***
+creator_friends_facebook_number  0.0004009  0.0002830   1.416   0.1566    
+has_a_video_d                   -0.1375015  0.3887943  -0.354   0.7236    
+updates_number                   0.2378250  0.0558945   4.255 2.09e-05 ***
+comments_count                  -0.0057215  0.0437344  -0.131   0.8959    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 814.54  on 590  degrees of freedom
+Residual deviance: 205.67  on 580  degrees of freedom
+AIC: 227.67
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                              590     814.54              
+passsucceed_level50              1   414.12       589     400.42 < 2.2e-16 ***
+backedg20                        1     0.50       588     399.93    0.4809    
+createdg10                       1     2.50       587     397.42    0.1137    
+duration                         1     1.35       586     396.07    0.2445    
+goal_usd                         1    38.13       585     357.94 6.612e-10 ***
+backers_count                    1   114.75       584     243.19 < 2.2e-16 ***
+creator_friends_facebook_number  1     1.81       583     241.39    0.1791    
+has_a_video_d                    1     0.08       582     241.31    0.7782    
+updates_number                   1    35.62       581     205.68 2.395e-09 ***
+comments_count                   1     0.02       580     205.67    0.8963    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Journalism"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Journalism)
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-2.40553  -0.26556  -0.07007   0.08925   3.08035  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      8.607e-01  9.010e-01   0.955  0.33941    
+passsucceed_level50             -3.617e+00  6.978e-01  -5.183 2.18e-07 ***
+backedg20                       -1.754e+00  9.849e-01  -1.781  0.07489 .  
+createdg10                       1.429e+00  1.752e+00   0.815  0.41496    
+duration                        -6.401e-03  2.189e-02  -0.292  0.76999    
+goal_usd                        -2.261e-04  5.674e-05  -3.985 6.74e-05 ***
+backers_count                    3.469e-02  1.103e-02   3.144  0.00167 ** 
+creator_friends_facebook_number  7.981e-05  2.672e-04   0.299  0.76518    
+has_a_video_d                   -8.349e-02  6.243e-01  -0.134  0.89361    
+updates_number                   2.276e-01  7.871e-02   2.891  0.00383 ** 
+comments_count                  -2.202e-01  1.313e-01  -1.677  0.09348 .  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 357.592  on 281  degrees of freedom
+Residual deviance:  92.479  on 271  degrees of freedom
+AIC: 114.48
+
+Number of Fisher Scoring iterations: 9
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                              281     357.59              
+passsucceed_level50              1  200.222       280     157.37 < 2.2e-16 ***
+backedg20                        1    0.718       279     156.65 0.3969217    
+createdg10                       1    3.194       278     153.46 0.0739195 .  
+duration                         1    0.027       277     153.43 0.8690747    
+goal_usd                         1   14.712       276     138.72 0.0001252 ***
+backers_count                    1   35.606       275     103.11 2.416e-09 ***
+creator_friends_facebook_number  1    0.008       274     103.11 0.9284497    
+has_a_video_d                    1    0.645       273     102.46 0.4217543    
+updates_number                   1    7.837       272      94.62 0.0051200 ** 
+comments_count                   1    2.144       271      92.48 0.1430847    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+[1] "state of Dance"
+
+Call:
+glm(formula = project_state_code ~ passsucceed_level50 + backedg20 + 
+    createdg10 + duration + goal_usd + backers_count + creator_friends_facebook_number + 
+    has_a_video_d + updates_number + comments_count, family = binomial, 
+    data = Dance)
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-2.56538   0.00000   0.00412   0.06972   2.85113  
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      3.3569710  1.2611018   2.662 0.007769 ** 
+passsucceed_level50             -5.6166501  0.9962639  -5.638 1.72e-08 ***
+backedg20                       -5.2251846  1.9232559  -2.717 0.006591 ** 
+createdg10                       3.0692440  2.4843427   1.235 0.216669    
+duration                        -0.0962960  0.0319431  -3.015 0.002573 ** 
+goal_usd                        -0.0006483  0.0001466  -4.422 9.76e-06 ***
+backers_count                    0.1477299  0.0340637   4.337 1.45e-05 ***
+creator_friends_facebook_number  0.0003753  0.0003135   1.197 0.231186    
+has_a_video_d                   -0.1971651  0.7856076  -0.251 0.801836    
+updates_number                   0.6555964  0.1973305   3.322 0.000893 ***
+comments_count                   0.0365451  0.4124048   0.089 0.929388    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 434.161  on 387  degrees of freedom
+Residual deviance:  65.219  on 377  degrees of freedom
+AIC: 87.219
+
+Number of Fisher Scoring iterations: 10
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: project_state_code
+
+Terms added sequentially (first to last)
+
+
+                                Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                              387     434.16              
+passsucceed_level50              1  279.363       386     154.80 < 2.2e-16 ***
+backedg20                        1    0.133       385     154.67 0.7151319    
+createdg10                       1    1.699       384     152.97 0.1924724    
+duration                         1    6.905       383     146.06 0.0085941 ** 
+goal_usd                         1    1.366       382     144.70 0.2425194    
+backers_count                    1   63.038       381      81.66 2.028e-15 ***
+creator_friends_facebook_number  1    1.978       380      79.68 0.1596421    
+has_a_video_d                    1    0.054       379      79.63 0.8154384    
+updates_number                   1   14.399       378      65.23 0.0001479 ***
+comments_count                   1    0.008       377      65.22 0.9293677    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

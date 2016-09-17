@@ -1,0 +1,33 @@
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit (Quadratic hill climbing),,,,
+Date: 08/21/16   Time: 01:46,,,,
+Sample: 1 4669,,,,
+Included observations: 4669,,,,
+Convergence achieved after 8 iterations,,,,
+Covariance matrix computed using second derivatives,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-2.908181,0.288530,-10.07930,0.0000
+PASSSUCCEED_,6.288044,0.318134,19.76540,0.0000
+BACKERS_COUNT,0.010974,0.000902,12.16767,0.0000
+COMMENTS_COUNT,0.004854,0.001098,4.422965,0.0000
+CREATOR_FRIENDS_FACEBOOK,0.000146,8.90E-05,1.643660,0.1002
+DURATION,-0.014415,0.006536,-2.205503,0.0274
+GOAL_USD,-0.000259,1.58E-05,-16.41017,0.0000
+HAS_A_VIDEO_D,-0.401174,0.171657,-2.337064,0.0194
+UPDATES_NUMBER,0.125838,0.009803,12.83622,0.0000
+CREATOR_HAS_BUILT_PROJEC,-0.046141,0.011857,-3.891532,0.0001
+,,,,
+McFadden R-squared,0.794871,    Mean dependent var,,0.569073
+S.D. dependent var,0.495259,    S.E. of regression,,0.201709
+Akaike info criterion,0.284725,    Sum squared resid,,189.5585
+Schwarz criterion,0.298537,    Log likelihood,,-654.6916
+Hannan-Quinn criter.,0.289583,    Deviance,,1309.383
+Restr. deviance,6383.219,    Restr. log likelihood,,-3191.610
+LR statistic,5073.836,    Avg. log likelihood,,-0.140221
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,2012,     Total obs,,4669
+Obs with Dep=1,2657,,,
+,,,,

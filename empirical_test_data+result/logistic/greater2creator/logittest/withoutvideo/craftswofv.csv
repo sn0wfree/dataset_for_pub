@@ -1,0 +1,30 @@
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit (Quadratic hill climbing),,,,
+Date: 08/21/16   Time: 03:27,,,,
+Sample: 1 591,,,,
+Included observations: 591,,,,
+Convergence achieved after 7 iterations,,,,
+Covariance matrix computed using second derivatives,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-3.571401,0.784856,-4.550391,0.0000
+PASSSUCCEED_,7.977504,1.046324,7.624318,0.0000
+BACKERS_COUNT,0.058089,0.015408,3.770043,0.0002
+COMMENTS_COUNT,-0.011861,0.044204,-0.268336,0.7884
+DURATION,0.002883,0.020231,0.142512,0.8867
+GOAL_USD,-0.000935,0.000173,-5.390539,0.0000
+UPDATES_NUMBER,0.160864,0.055407,2.903324,0.0037
+,,,,
+McFadden R-squared,0.797500,    Mean dependent var,,0.455161
+S.D. dependent var,0.498407,    S.E. of regression,,0.200742
+Akaike info criterion,0.302782,    Sum squared resid,,23.53357
+Schwarz criterion,0.354682,    Log likelihood,,-82.47221
+Hannan-Quinn criter.,0.323000,    Deviance,,164.9444
+Restr. deviance,814.5406,    Restr. log likelihood,,-407.2703
+LR statistic,649.5962,    Avg. log likelihood,,-0.139547
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,322,     Total obs,,591
+Obs with Dep=1,269,,,
+,,,,

@@ -1,0 +1,7 @@
+import seaborn as sns
+import pandas as import pd
+
+
+logit_large_sample=pd.read_csv('/Users/sn0wfree/Dropbox/BitTorrentSync/kickstarter_dataset/data/empirical_test_data/logistic/allcollection/testdata.csv')
+
+logit_small_sample=pd.read_csv('/Users/sn0wfree/Dropbox/BitTorrentSync/kickstarter_dataset/data/empirical_test_data/logistic/greater2creator/smallsample.csv')

@@ -1,0 +1,505 @@
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 10347,,,,
+Included observations: 10347,,,,
+Convergence achieved after 8 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-1.332521,0.552888,-2.410112,0.0159
+BACKERS_COUNT,0.108211,0.003113,34.76190,0.0000
+COMMENTS_COUNT,-0.061663,0.011905,-5.179501,0.0000
+CREATOR_FRIENDS_FACEBOOK,6.31E-05,3.90E-05,1.618903,0.1055
+CREATOR_HAS_BACKED__PROJ,-0.003112,0.002399,-1.297143,0.1946
+CREATOR_HAS_BUILT_PROJEC,0.049904,0.016335,3.054975,0.0023
+DURATION,-0.018192,0.002889,-6.297206,0.0000
+GINI_COEF,0.444637,1.381361,0.321883,0.7475
+GOAL_USD,-0.000527,1.66E-05,-31.80817,0.0000
+HAS_A_VIDEO_D,0.454171,0.077338,5.872560,0.0000
+UPDATES_NUMBER,0.162984,0.011434,14.25419,0.0000
+,,,,
+McFadden R-squared,0.629407,    Mean dependent var,,0.445830
+S.D. dependent var,0.497081,    S.E. of regression,,0.250906
+Akaike info criterion,0.511518,    Sum squared resid,,650.6901
+Schwarz criterion,0.519220,    Log likelihood,,-2635.339
+Hannan-Quinn criter.,0.514121,    Restr. deviance,,14222.30
+Restr. log likelihood,-7111.150,    LR statistic,,8951.621
+Avg. log likelihood,-0.254696,    Prob(LR statistic),,0.000000
+,,,,
+Obs with Dep=0,5734,     Total obs,,10347
+Obs with Dep=1,4613,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 5272,,,,
+Included observations: 5272,,,,
+Convergence achieved after 14 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-1.100811,0.903542,-1.218328,0.2231
+BACKERS_COUNT,0.058613,0.002568,22.82037,0.0000
+COMMENTS_COUNT,0.029545,0.002513,11.75485,0.0000
+CREATOR_FRIENDS_FACEBOOK,-1.36E-05,5.24E-05,-0.260248,0.7947
+CREATOR_HAS_BACKED__PROJ,-0.004685,0.001852,-2.529645,0.0114
+CREATOR_HAS_BUILT_PROJEC,-0.009976,0.018049,-0.552700,0.5805
+DURATION,-0.009656,0.004603,-2.097773,0.0359
+GINI_COEF,-0.069388,2.212961,-0.031355,0.9750
+GOAL_USD,-0.000626,2.70E-05,-23.20224,0.0000
+HAS_A_VIDEO_D,0.237224,0.130839,1.813099,0.0698
+UPDATES_NUMBER,0.116879,0.009229,12.66373,0.0000
+,,,,
+McFadden R-squared,0.688774,    Mean dependent var,,0.520675
+S.D. dependent var,0.499620,    S.E. of regression,,0.240945
+Akaike info criterion,0.435092,    Sum squared resid,,305.4237
+Schwarz criterion,0.448801,    Log likelihood,,-1135.903
+Hannan-Quinn criter.,0.439884,    Restr. deviance,,7299.527
+Restr. log likelihood,-3649.763,    LR statistic,,5027.721
+Avg. log likelihood,-0.215460,    Prob(LR statistic),,0.000000
+,,,,
+Obs with Dep=0,2527,     Total obs,,5272
+Obs with Dep=1,2745,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample (adjusted): 1 3262,,,,
+Included observations: 3262 after adjustments,,,,
+Convergence achieved after 11 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-0.013160,1.017894,-0.012928,0.9897
+BACKERS_COUNT,0.131443,0.008138,16.15130,0.0000
+COMMENTS_COUNT,-0.074665,0.019965,-3.739752,0.0002
+CREATOR_FRIENDS_FACEBOOK,9.70E-05,0.000128,0.758394,0.4482
+CREATOR_HAS_BACKED__PROJ,-0.003474,0.004071,-0.853294,0.3935
+CREATOR_HAS_BUILT_PROJEC,0.102882,0.038348,2.682822,0.0073
+DURATION,-0.030755,0.007586,-4.053927,0.0001
+GINI_COEF,-3.498877,2.492571,-1.403722,0.1604
+GOAL_USD,-0.000944,5.98E-05,-15.79971,0.0000
+HAS_A_VIDEO_D,0.256605,0.155574,1.649407,0.0991
+UPDATES_NUMBER,0.242458,0.025606,9.468901,0.0000
+,,,,
+McFadden R-squared,0.669088,    Mean dependent var,,0.257511
+S.D. dependent var,0.437330,    S.E. of regression,,0.220425
+Akaike info criterion,0.384273,    Sum squared resid,,157.9566
+Schwarz criterion,0.404810,    Log likelihood,,-615.7493
+Hannan-Quinn criter.,0.391629,    Deviance,,1231.499
+Restr. deviance,3721.532,    Restr. log likelihood,,-1860.766
+LR statistic,2490.033,    Avg. log likelihood,,-0.188764
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,2422,     Total obs,,3262
+Obs with Dep=1,840,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 1653,,,,
+Included observations: 1653,,,,
+Convergence achieved after 9 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-2.297415,1.551656,-1.480621,0.1387
+BACKERS_COUNT,0.163791,0.010405,15.74112,0.0000
+COMMENTS_COUNT,-0.158546,0.083589,-1.896739,0.0579
+CREATOR_FRIENDS_FACEBOOK,-2.77E-06,9.56E-05,-0.028947,0.9769
+CREATOR_HAS_BACKED__PROJ,-0.066294,0.021272,-3.116505,0.0018
+CREATOR_HAS_BUILT_PROJEC,0.106338,0.056590,1.879113,0.0602
+DURATION,-0.004048,0.007129,-0.567880,0.5701
+GINI_COEF,2.029615,3.892233,0.521453,0.6021
+GOAL_USD,-0.000517,4.16E-05,-12.40286,0.0000
+HAS_A_VIDEO_D,0.206856,0.241393,0.856927,0.3915
+UPDATES_NUMBER,0.106202,0.040525,2.620630,0.0088
+,,,,
+McFadden R-squared,0.664912,    Mean dependent var,,0.643073
+S.D. dependent var,0.479238,    S.E. of regression,,0.244207
+Akaike info criterion,0.450015,    Sum squared resid,,97.92375
+Schwarz criterion,0.486019,    Log likelihood,,-360.9378
+Hannan-Quinn criter.,0.463363,    Deviance,,721.8756
+Restr. deviance,2154.287,    Restr. log likelihood,,-1077.144
+LR statistic,1432.411,    Avg. log likelihood,,-0.218353
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,590,     Total obs,,1653
+Obs with Dep=1,1063,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 10152,,,,
+Included observations: 10152,,,,
+Convergence achieved after 8 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-1.607334,0.485469,-3.310887,0.0009
+BACKERS_COUNT,0.010639,0.000573,18.55829,0.0000
+COMMENTS_COUNT,0.013654,0.002160,6.322751,0.0000
+CREATOR_FRIENDS_FACEBOOK,0.000281,4.65E-05,6.037252,0.0000
+CREATOR_HAS_BACKED__PROJ,-0.003192,0.001295,-2.464405,0.0137
+CREATOR_HAS_BUILT_PROJEC,0.014883,0.016784,0.886721,0.3752
+DURATION,-0.031546,0.003818,-8.262758,0.0000
+GINI_COEF,0.573634,1.188185,0.482782,0.6293
+GOAL_USD,-9.95E-05,3.80E-06,-26.21838,0.0000
+HAS_A_VIDEO_D,0.263957,0.102301,2.580206,0.0099
+UPDATES_NUMBER,0.282908,0.009425,30.01576,0.0000
+,,,,
+McFadden R-squared,0.610619,    Mean dependent var,,0.355989
+S.D. dependent var,0.478835,    S.E. of regression,,0.271480
+Akaike info criterion,0.509200,    Sum squared resid,,747.4049
+Schwarz criterion,0.517029,    Log likelihood,,-2573.697
+Hannan-Quinn criter.,0.511848,    Deviance,,5147.395
+Restr. deviance,13219.44,    Restr. log likelihood,,-6609.718
+LR statistic,8072.041,    Avg. log likelihood,,-0.253516
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,6538,     Total obs,,10152
+Obs with Dep=1,3614,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 7516,,,,
+Included observations: 7516,,,,
+Convergence achieved after 9 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-0.914265,0.631197,-1.448461,0.1475
+BACKERS_COUNT,0.049568,0.001999,24.79534,0.0000
+COMMENTS_COUNT,-0.010962,0.005191,-2.111859,0.0347
+CREATOR_FRIENDS_FACEBOOK,0.000250,4.68E-05,5.347532,0.0000
+CREATOR_HAS_BACKED__PROJ,0.000626,0.002348,0.266547,0.7898
+CREATOR_HAS_BUILT_PROJEC,0.031453,0.027276,1.153136,0.2489
+DURATION,-0.027451,0.004746,-5.783648,0.0000
+GINI_COEF,-2.048834,1.566244,-1.308119,0.1908
+GOAL_USD,-0.000224,9.53E-06,-23.49053,0.0000
+HAS_A_VIDEO_D,0.460345,0.107125,4.297278,0.0000
+UPDATES_NUMBER,0.247253,0.013649,18.11515,0.0000
+,,,,
+McFadden R-squared,0.634827,    Mean dependent var,,0.301490
+S.D. dependent var,0.458936,    S.E. of regression,,0.244385
+Akaike info criterion,0.449988,    Sum squared resid,,448.2277
+Schwarz criterion,0.460122,    Log likelihood,,-1680.054
+Hannan-Quinn criter.,0.453467,    Deviance,,3360.107
+Restr. deviance,9201.412,    Restr. log likelihood,,-4600.706
+LR statistic,5841.305,    Avg. log likelihood,,-0.223530
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,5250,     Total obs,,7516
+Obs with Dep=1,2266,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 22661,,,,
+Included observations: 22661,,,,
+Convergence achieved after 19 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,0.135728,0.368438,0.368386,0.7126
+BACKERS_COUNT,0.071849,0.001444,49.76412,0.0000
+COMMENTS_COUNT,-0.079046,0.001947,-40.59383,0.0000
+CREATOR_FRIENDS_FACEBOOK,2.21E-05,2.75E-05,0.805906,0.4203
+CREATOR_HAS_BACKED__PROJ,-0.002516,0.001591,-1.581344,0.1138
+CREATOR_HAS_BUILT_PROJEC,-0.004028,0.014025,-0.287221,0.7739
+DURATION,-0.018794,0.001810,-10.38303,0.0000
+GINI_COEF,-2.186654,0.933942,-2.341316,0.0192
+GOAL_USD,-0.000311,6.08E-06,-51.16185,0.0000
+HAS_A_VIDEO_D,0.381333,0.068799,5.542709,0.0000
+UPDATES_NUMBER,0.168685,0.006528,25.84173,0.0000
+,,,,
+McFadden R-squared,0.630872,    Mean dependent var,,0.432682
+S.D. dependent var,0.495458,    S.E. of regression,,0.251521
+Akaike info criterion,0.505979,    Sum squared resid,,1432.903
+Schwarz criterion,0.509876,    Log likelihood,,-5721.994
+Hannan-Quinn criter.,0.507246,    Deviance,,11443.99
+Restr. deviance,31002.79,    Restr. log likelihood,,-15501.40
+LR statistic,19558.80,    Avg. log likelihood,,-0.252504
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,12856,     Total obs,,22661
+Obs with Dep=1,9805,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 9403,,,,
+Included observations: 9403,,,,
+Convergence achieved after 10 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-3.283862,0.714936,-4.593225,0.0000
+BACKERS_COUNT,0.054095,0.001840,29.39397,0.0000
+COMMENTS_COUNT,-0.034584,0.005957,-5.805817,0.0000
+CREATOR_FRIENDS_FACEBOOK,8.99E-05,5.58E-05,1.610880,0.1072
+CREATOR_HAS_BACKED__PROJ,0.000275,0.002328,0.118067,0.9060
+CREATOR_HAS_BUILT_PROJEC,0.050491,0.015049,3.355040,0.0008
+DURATION,-0.025033,0.003931,-6.368011,0.0000
+GINI_COEF,5.051872,1.773848,2.847974,0.0044
+GOAL_USD,-0.000216,7.97E-06,-27.12304,0.0000
+HAS_A_VIDEO_D,0.273338,0.092286,2.961845,0.0031
+UPDATES_NUMBER,0.177059,0.012087,14.64915,0.0000
+,,,,
+McFadden R-squared,0.645829,    Mean dependent var,,0.305115
+S.D. dependent var,0.460481,    S.E. of regression,,0.247518
+Akaike info criterion,0.438067,    Sum squared resid,,575.4031
+Schwarz criterion,0.446430,    Log likelihood,,-2048.571
+Hannan-Quinn criter.,0.440906,    Deviance,,4097.143
+Restr. deviance,11568.26,    Restr. log likelihood,,-5784.128
+LR statistic,7471.114,    Avg. log likelihood,,-0.217864
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,6534,     Total obs,,9403
+Obs with Dep=1,2869,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 12132,,,,
+Included observations: 12132,,,,
+Convergence achieved after 11 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-3.359523,0.486970,-6.898825,0.0000
+BACKERS_COUNT,0.014008,0.000561,24.95542,0.0000
+COMMENTS_COUNT,0.000188,0.000534,0.353015,0.7241
+CREATOR_FRIENDS_FACEBOOK,0.000259,5.23E-05,4.944362,0.0000
+CREATOR_HAS_BACKED__PROJ,-0.001836,0.001059,-1.733490,0.0830
+CREATOR_HAS_BUILT_PROJEC,0.044709,0.010579,4.226125,0.0000
+DURATION,-0.022892,0.003709,-6.172344,0.0000
+GINI_COEF,4.802729,1.208118,3.975382,0.0001
+GOAL_USD,-0.000235,7.99E-06,-29.45527,0.0000
+HAS_A_VIDEO_D,0.248388,0.090735,2.737512,0.0062
+UPDATES_NUMBER,0.178359,0.005837,30.55810,0.0000
+,,,,
+McFadden R-squared,0.692422,    Mean dependent var,,0.369766
+S.D. dependent var,0.482761,    S.E. of regression,,0.236472
+Akaike info criterion,0.407097,    Sum squared resid,,677.7943
+Schwarz criterion,0.413810,    Log likelihood,,-2458.450
+Hannan-Quinn criter.,0.409347,    Deviance,,4916.899
+Restr. deviance,15985.87,    Restr. log likelihood,,-7992.937
+LR statistic,11068.98,    Avg. log likelihood,,-0.202642
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,7646,     Total obs,,12132
+Obs with Dep=1,4486,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 2763,,,,
+Included observations: 2763,,,,
+Convergence achieved after 12 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-3.617087,1.107007,-3.267446,0.0011
+BACKERS_COUNT,0.066244,0.004666,14.19732,0.0000
+COMMENTS_COUNT,-0.078971,0.012605,-6.264795,0.0000
+CREATOR_FRIENDS_FACEBOOK,0.000104,9.26E-05,1.123421,0.2613
+CREATOR_HAS_BACKED__PROJ,0.001799,0.005682,0.316635,0.7515
+CREATOR_HAS_BUILT_PROJEC,-0.002900,0.081111,-0.035755,0.9715
+DURATION,-0.010213,0.006991,-1.460877,0.1440
+GINI_COEF,4.029786,2.757961,1.461147,0.1440
+GOAL_USD,-0.000314,2.48E-05,-12.68148,0.0000
+HAS_A_VIDEO_D,0.463557,0.180967,2.561561,0.0104
+UPDATES_NUMBER,0.238568,0.027524,8.667787,0.0000
+,,,,
+McFadden R-squared,0.637120,    Mean dependent var,,0.185668
+S.D. dependent var,0.388909,    S.E. of regression,,0.201575
+Akaike info criterion,0.356240,    Sum squared resid,,111.8210
+Schwarz criterion,0.379825,    Log likelihood,,-481.1453
+Hannan-Quinn criter.,0.364759,    Deviance,,962.2906
+Restr. deviance,2651.816,    Restr. log likelihood,,-1325.908
+LR statistic,1689.525,    Avg. log likelihood,,-0.174139
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,2250,     Total obs,,2763
+Obs with Dep=1,513,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 18988,,,,
+Included observations: 18988,,,,
+Convergence achieved after 9 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-1.360249,0.533313,-2.550564,0.0108
+BACKERS_COUNT,0.099515,0.002028,49.08119,0.0000
+COMMENTS_COUNT,-0.051902,0.002555,-20.31487,0.0000
+CREATOR_FRIENDS_FACEBOOK,9.90E-06,2.44E-05,0.405784,0.6849
+CREATOR_HAS_BACKED__PROJ,-0.005356,0.003228,-1.658915,0.0971
+CREATOR_HAS_BUILT_PROJEC,0.006225,0.021883,0.284454,0.7761
+DURATION,-0.015777,0.002116,-7.454345,0.0000
+GINI_COEF,0.547849,1.319701,0.415132,0.6780
+GOAL_USD,-0.000499,1.07E-05,-46.63531,0.0000
+HAS_A_VIDEO_D,0.536950,0.071501,7.509669,0.0000
+UPDATES_NUMBER,0.203937,0.009790,20.83034,0.0000
+,,,,
+McFadden R-squared,0.683871,    Mean dependent var,,0.519170
+S.D. dependent var,0.499646,    S.E. of regression,,0.235365
+Akaike info criterion,0.438941,    Sum squared resid,,1051.267
+Schwarz criterion,0.443490,    Log likelihood,,-4156.310
+Hannan-Quinn criter.,0.440433,    Restr. deviance,,26295.04
+Restr. log likelihood,-13147.52,    LR statistic,,17982.42
+Avg. log likelihood,-0.218891,    Prob(LR statistic),,0.000000
+,,,,
+Obs with Dep=0,9130,     Total obs,,18988
+Obs with Dep=1,9858,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 4708,,,,
+Included observations: 4708,,,,
+Convergence achieved after 10 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-0.822074,0.760876,-1.080431,0.2800
+BACKERS_COUNT,0.090499,0.004019,22.51507,0.0000
+COMMENTS_COUNT,-0.019402,0.027427,-0.707394,0.4793
+CREATOR_FRIENDS_FACEBOOK,7.16E-05,7.09E-05,1.009962,0.3125
+CREATOR_HAS_BACKED__PROJ,-0.008695,0.006315,-1.377001,0.1685
+CREATOR_HAS_BUILT_PROJEC,0.047980,0.019101,2.511922,0.0120
+DURATION,-0.015089,0.004566,-3.304904,0.0010
+GINI_COEF,-2.195947,1.911040,-1.149085,0.2505
+GOAL_USD,-0.000514,2.46E-05,-20.89782,0.0000
+HAS_A_VIDEO_D,0.529073,0.127047,4.164376,0.0000
+UPDATES_NUMBER,0.173099,0.016399,10.55573,0.0000
+,,,,
+McFadden R-squared,0.653938,    Mean dependent var,,0.318182
+S.D. dependent var,0.465820,    S.E. of regression,,0.231529
+Akaike info criterion,0.437591,    Sum squared resid,,251.7868
+Schwarz criterion,0.452677,    Log likelihood,,-1019.089
+Hannan-Quinn criter.,0.442894,    Restr. deviance,,5889.627
+Restr. log likelihood,-2944.813,    LR statistic,,3851.449
+Avg. log likelihood,-0.216459,    Prob(LR statistic),,0.000000
+,,,,
+Obs with Dep=0,3210,     Total obs,,4708
+Obs with Dep=1,1498,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 15370,,,,
+Included observations: 15370,,,,
+Convergence achieved after 9 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-2.708217,0.551182,-4.913471,0.0000
+BACKERS_COUNT,0.077088,0.001916,40.23379,0.0000
+COMMENTS_COUNT,-0.033222,0.004671,-7.112188,0.0000
+CREATOR_FRIENDS_FACEBOOK,9.16E-05,3.74E-05,2.451270,0.0142
+CREATOR_HAS_BACKED__PROJ,-0.004165,0.001792,-2.324439,0.0201
+CREATOR_HAS_BUILT_PROJEC,0.013211,0.018770,0.703846,0.4815
+DURATION,-0.013781,0.002759,-4.994673,0.0000
+GINI_COEF,2.905345,1.363518,2.130772,0.0331
+GOAL_USD,-0.000501,1.31E-05,-38.23333,0.0000
+HAS_A_VIDEO_D,0.513935,0.074255,6.921217,0.0000
+UPDATES_NUMBER,0.169194,0.008017,21.10393,0.0000
+,,,,
+McFadden R-squared,0.674498,    Mean dependent var,,0.348926
+S.D. dependent var,0.476646,    S.E. of regression,,0.232932
+Akaike info criterion,0.422487,    Sum squared resid,,833.3384
+Schwarz criterion,0.427955,    Log likelihood,,-3235.816
+Hannan-Quinn criter.,0.424300,    Deviance,,6471.633
+Restr. deviance,19882.00,    Restr. log likelihood,,-9941.002
+LR statistic,13410.37,    Avg. log likelihood,,-0.210528
+Prob(LR statistic),0.000000,,,
+,,,,
+Obs with Dep=0,10007,     Total obs,,15370
+Obs with Dep=1,5363,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 7676,,,,
+Included observations: 7676,,,,
+Convergence achieved after 9 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,-4.485175,0.614566,-7.298112,0.0000
+BACKERS_COUNT,0.005197,0.000426,12.19897,0.0000
+COMMENTS_COUNT,0.005148,0.001425,3.613560,0.0003
+CREATOR_FRIENDS_FACEBOOK,0.000247,5.92E-05,4.179530,0.0000
+CREATOR_HAS_BACKED__PROJ,0.010144,0.004324,2.346253,0.0190
+CREATOR_HAS_BUILT_PROJEC,0.095074,0.020641,4.606057,0.0000
+DURATION,-0.017302,0.004347,-3.980448,0.0001
+GINI_COEF,5.049351,1.514222,3.334617,0.0009
+GOAL_USD,-5.29E-05,2.64E-06,-20.05104,0.0000
+HAS_A_VIDEO_D,0.585327,0.128977,4.538220,0.0000
+UPDATES_NUMBER,0.287574,0.010719,26.82802,0.0000
+,,,,
+McFadden R-squared,0.608546,    Mean dependent var,,0.246483
+S.D. dependent var,0.430991,    S.E. of regression,,0.245668
+Akaike info criterion,0.440071,    Sum squared resid,,462.6022
+Schwarz criterion,0.450025,    Log likelihood,,-1677.994
+Hannan-Quinn criter.,0.443486,    Restr. deviance,,8573.136
+Restr. log likelihood,-4286.568,    LR statistic,,5217.147
+Avg. log likelihood,-0.218603,    Prob(LR statistic),,0.000000
+,,,,
+Obs with Dep=0,5784,     Total obs,,7676
+Obs with Dep=1,1892,,,
+,,,,
+Dependent Variable: PROJECT_STATE_CODE,,,,
+Method: ML - Binary Logit  (Newton-Raphson / Marquardt steps),,,,
+Date: 08/19/16   Time: 16:10,,,,
+Sample: 1 3955,,,,
+Included observations: 3955,,,,
+Convergence achieved after 17 iterations,,,,
+Coefficient covariance computed using observed Hessian,,,,
+,,,,
+Variable,Coefficient,Std. Error,z-Statistic,Prob.  
+,,,,
+C,0.430602,0.904260,0.476193,0.6339
+BACKERS_COUNT,0.147189,0.006077,24.21949,0.0000
+COMMENTS_COUNT,-0.321307,0.051333,-6.259301,0.0000
+CREATOR_FRIENDS_FACEBOOK,9.53E-05,7.19E-05,1.325682,0.1849
+CREATOR_HAS_BACKED__PROJ,-0.018560,0.012129,-1.530230,0.1260
+CREATOR_HAS_BUILT_PROJEC,-0.056931,0.049066,-1.160296,0.2459
+DURATION,-0.015704,0.004592,-3.420168,0.0006
+GINI_COEF,-2.964577,2.298139,-1.289990,0.1971
+GOAL_USD,-0.000519,2.33E-05,-22.27573,0.0000
+HAS_A_VIDEO_D,0.453181,0.142742,3.174825,0.0015
+UPDATES_NUMBER,0.087702,0.020430,4.292806,0.0000
+,,,,
+McFadden R-squared,0.690380,    Mean dependent var,,0.617952
+S.D. dependent var,0.485950,    S.E. of regression,,0.212878
+Akaike info criterion,0.417393,    Sum squared resid,,178.7305
+Schwarz criterion,0.434867,    Log likelihood,,-814.3939
+Hannan-Quinn criter.,0.423590,    Restr. deviance,,5260.608
+Restr. log likelihood,-2630.304,    LR statistic,,3631.820
+Avg. log likelihood,-0.205915,    Prob(LR statistic),,0.000000
+,,,,
+Obs with Dep=0,1511,     Total obs,,3955
+Obs with Dep=1,2444,,,
+,,,,
+
